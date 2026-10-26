@@ -1,0 +1,16 @@
+{
+  "id": "a191a5bd-a2d2-4b89-9606-395275cfd89d",
+  "name": "deleteOrders",
+  "options": {
+    "operation": "delete_rows",
+    "table_id": "ba96a637-f289-410b-8bc2-772f66cb8cdb",
+    "delete_rows": {
+      "limit": 1,
+      "where_filters": {}
+    }
+  },
+  "dataSourceId": "c36d2fbc-9c9b-4648-bdb6-69085639183f",
+  "appVersionId": "d0ea99fd-4486-41f6-9896-862c01efd90c",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

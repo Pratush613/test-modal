@@ -1,0 +1,16 @@
+{
+  "id": "2901da44-e4e9-4216-8f8d-048fdcf36b63",
+  "name": "updateOrders",
+  "options": {
+    "operation": "update_rows",
+    "table_id": "ba96a637-f289-410b-8bc2-772f66cb8cdb",
+    "update_rows": {
+      "columns": {},
+      "where_filters": {}
+    }
+  },
+  "dataSourceId": "c36d2fbc-9c9b-4648-bdb6-69085639183f",
+  "appVersionId": "d0ea99fd-4486-41f6-9896-862c01efd90c",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}
