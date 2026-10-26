@@ -1,0 +1,39 @@
+{
+  "id": "ba96a637-f289-410b-8bc2-772f66cb8cdb",
+  "table_name": "orders",
+  "schema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "data_type": "integer",
+        "column_default": "nextval(\"workspace_f5ef419e-5f08-4721-8892-a4c93e68d958\".\"22136a1d-b837-4503-8364-7c58e5038396_id_seq\"",
+        "character_maximum_length": null,
+        "numeric_precision": 32,
+        "constraints_type": {
+          "is_not_null": true,
+          "is_primary_key": true,
+          "is_unique": false
+        },
+        "keytype": "PRIMARY KEY",
+        "column_id": "6dcfba84-36ca-484b-a111-d6e6bb4cb521",
+        "configurations": {}
+      },
+      {
+        "column_name": "name",
+        "data_type": "character varying",
+        "column_default": null,
+        "character_maximum_length": null,
+        "numeric_precision": null,
+        "constraints_type": {
+          "is_not_null": false,
+          "is_primary_key": false,
+          "is_unique": false
+        },
+        "keytype": "",
+        "column_id": "ccb7fe7c-55cb-4058-9daf-218bb62b7aa7",
+        "configurations": {}
+      }
+    ],
+    "foreign_keys": []
+  }
+}
