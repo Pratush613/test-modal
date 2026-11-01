@@ -1,5 +1,5 @@
 {
-  "id": "68be13a4-a849-4212-a923-40e271a5d3fd",
+  "id": "e8506425-c524-4a82-b9ed-5706c7a63776",
   "definition": {
     "nodes": [
       {
@@ -9,14 +9,19 @@
           "label": "Start trigger"
         },
         "position": {
-          "x": 100,
-          "y": 250
+          "x": 45,
+          "y": -82
         },
         "type": "input",
         "sourcePosition": "right",
         "deletable": false,
         "width": 206,
-        "height": 42
+        "height": 40,
+        "selected": true,
+        "positionAbsolute": {
+          "x": 45,
+          "y": -82
+        }
       },
       {
         "id": "f3024092-4d78-4859-94ab-1d0c7fc781ff",
@@ -31,8 +36,8 @@
           "nodeName": "response1"
         },
         "position": {
-          "x": 552,
-          "y": 84
+          "x": 668,
+          "y": 214
         },
         "type": "output",
         "sourcePosition": "right",
@@ -42,8 +47,8 @@
         "height": 40,
         "selected": false,
         "positionAbsolute": {
-          "x": 552,
-          "y": 84
+          "x": 668,
+          "y": 214
         }
       },
       {
@@ -59,12 +64,17 @@
           "nodeType": "workflow"
         },
         "position": {
-          "x": 387,
-          "y": 386
+          "x": 389,
+          "y": 73.00000000000006
         },
         "deletable": false,
         "width": 206,
-        "height": 40
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 389,
+          "y": 73.00000000000006
+        }
       }
     ],
     "edges": [
@@ -118,7 +128,7 @@
   "pageSettings": null,
   "showViewerNavigation": true,
   "homePageId": "1278bff0-102f-40bd-9962-fc16e9aae2a2",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "e8506425-c524-4a82-b9ed-5706c7a63776",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -127,5 +137,5 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "workflowEnabled": null
+  "workflowEnabled": false
 }
