@@ -36,8 +36,8 @@
           "nodeName": "response1"
         },
         "position": {
-          "x": 562,
-          "y": 26
+          "x": 634,
+          "y": -31
         },
         "type": "output",
         "sourcePosition": "right",
@@ -47,8 +47,8 @@
         "height": 40,
         "selected": true,
         "positionAbsolute": {
-          "x": 562,
-          "y": 26
+          "x": 634,
+          "y": -31
         }
       },
       {
