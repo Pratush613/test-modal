@@ -1,0 +1,131 @@
+{
+  "id": "68be13a4-a849-4212-a923-40e271a5d3fd",
+  "definition": {
+    "nodes": [
+      {
+        "id": "8c525e23-5cc5-410c-a0ff-f78b57629593",
+        "data": {
+          "nodeType": "start",
+          "label": "Start trigger"
+        },
+        "position": {
+          "x": 100,
+          "y": 250
+        },
+        "type": "input",
+        "sourcePosition": "right",
+        "deletable": false,
+        "width": 206,
+        "height": 42
+      },
+      {
+        "id": "f3024092-4d78-4859-94ab-1d0c7fc781ff",
+        "data": {
+          "nodeType": "response",
+          "label": "Response",
+          "code": "// Use this section to define the expected API response\n\nreturn ({\n  'message':'hw'\n})",
+          "statusCode": {
+            "fxActive": false,
+            "value": "200"
+          },
+          "nodeName": "response1"
+        },
+        "position": {
+          "x": 552,
+          "y": 84
+        },
+        "type": "output",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "deletable": false,
+        "width": 206,
+        "height": 40,
+        "selected": false,
+        "positionAbsolute": {
+          "x": 552,
+          "y": 84
+        }
+      },
+      {
+        "id": "50cc0cb7-48e9-4eac-aeec-6048d0e227b5",
+        "type": "workflow",
+        "sourcePosition": "right",
+        "targetPosition": "left",
+        "draggable": true,
+        "data": {
+          "idOnDefinition": "0cd64f03-eb54-4b61-9838-1e0db8ae08ec",
+          "kind": "workflows",
+          "options": {},
+          "nodeType": "workflow"
+        },
+        "position": {
+          "x": 387,
+          "y": 386
+        },
+        "deletable": false,
+        "width": 206,
+        "height": 40
+      }
+    ],
+    "edges": [
+      {
+        "id": "ef9e03e6-4845-4e4c-b044-dc314c1ee913",
+        "source": "8c525e23-5cc5-410c-a0ff-f78b57629593",
+        "target": "50cc0cb7-48e9-4eac-aeec-6048d0e227b5",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "type": "custom"
+      },
+      {
+        "type": "custom",
+        "source": "50cc0cb7-48e9-4eac-aeec-6048d0e227b5",
+        "sourceHandle": "success",
+        "target": "f3024092-4d78-4859-94ab-1d0c7fc781ff",
+        "targetHandle": null,
+        "id": "reactflow__edge-50cc0cb7-48e9-4eac-aeec-6048d0e227b5success-f3024092-4d78-4859-94ab-1d0c7fc781ff"
+      }
+    ],
+    "queries": [
+      {
+        "idOnDefinition": "0cd64f03-eb54-4b61-9838-1e0db8ae08ec",
+        "id": "71127867-d4b4-447a-8b42-38caf88b5825"
+      }
+    ],
+    "webhookParams": [],
+    "defaultParams": "{}",
+    "dependencies": {
+      "javascript": {
+        "dependencies": {}
+      },
+      "python": {
+        "dependencies": ""
+      }
+    },
+    "setupScript": {
+      "javascript": "// lodash\n// const _ = require('lodash');\n",
+      "python": "# pandas\n# import pandas as pd\n# numpy\n# import numpy as np\n# requests\n# import requests\n"
+    }
+  },
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light"
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "1278bff0-102f-40bd-9962-fc16e9aae2a2",
+  "versionType": "version",
+  "appId": "e8506425-c524-4a82-b9ed-5706c7a63776",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "workflowEnabled": null
+}
