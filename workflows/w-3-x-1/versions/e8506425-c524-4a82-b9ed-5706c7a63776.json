@@ -16,8 +16,8 @@
         "sourcePosition": "right",
         "deletable": false,
         "width": 206,
-        "height": 40,
-        "selected": true,
+        "height": 42,
+        "selected": false,
         "positionAbsolute": {
           "x": 45,
           "y": -82
@@ -36,8 +36,8 @@
           "nodeName": "response1"
         },
         "position": {
-          "x": 668,
-          "y": 214
+          "x": 562,
+          "y": 26
         },
         "type": "output",
         "sourcePosition": "right",
@@ -45,10 +45,10 @@
         "deletable": false,
         "width": 206,
         "height": 40,
-        "selected": false,
+        "selected": true,
         "positionAbsolute": {
-          "x": 668,
-          "y": 214
+          "x": 562,
+          "y": 26
         }
       },
       {
