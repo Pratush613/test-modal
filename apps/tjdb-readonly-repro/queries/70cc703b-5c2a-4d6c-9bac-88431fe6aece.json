@@ -6,7 +6,9 @@
     "table_id": "ba96a637-f289-410b-8bc2-772f66cb8cdb",
     "delete_rows": {
       "limit": 1,
-      "where_filters": {}
+      "where_filters": {},
+      "order_column": "id",
+      "order_column_id": "aa804b06-fbc7-4290-b4fd-e16b64807e1c"
     }
   },
   "dataSourceId": "c36d2fbc-9c9b-4648-bdb6-69085639183f",
