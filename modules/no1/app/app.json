@@ -1,0 +1,12 @@
+{
+  "id": "466f2f25-ad4c-4b65-8dfa-e2fcbe0bb3e8",
+  "type": "module",
+  "slug": "d27e5c99-effc-4388-8792-af5230d87746",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "floppydisk",
+  "tooljetVersion": "3.21.97-cloud-lts"
+}
