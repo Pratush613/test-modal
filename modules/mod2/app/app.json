@@ -1,0 +1,12 @@
+{
+  "id": "a68f58fd-012a-43e7-b54b-fa43df0b4c0c",
+  "type": "module",
+  "slug": "29029986-991d-4665-9de0-3a8661849894",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "server",
+  "tooljetVersion": "3.21.97-cloud-lts"
+}
