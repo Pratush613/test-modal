@@ -1,0 +1,12 @@
+{
+  "id": "7734912d-c905-45a7-ab46-fd344a510e3e",
+  "type": "front-end",
+  "slug": "d3a7fee6-1afe-42fe-8d44-5e60c7d155a0",
+  "isPublic": false,
+  "isMaintenanceOn": false,
+  "__loaded": true,
+  "aiGenerationMetadata": null,
+  "appBuilderMode": "visual",
+  "icon": "globe",
+  "tooljetVersion": "3.21.97-cloud-lts"
+}
